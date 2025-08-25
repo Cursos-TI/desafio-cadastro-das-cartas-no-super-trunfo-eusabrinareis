@@ -23,8 +23,21 @@ int main(){
    printf("O número de pontos turísticos é: 15 \n");
 
 
-   return 0;
+
+   printf("\n");
    
+   printf("Carta 2 \n");
 
+   printf("O estado é: Alagoas \n");
+   printf("O código do estado é: A02\n");
+   printf("A cidade é: Maceió \n");
+   printf("O número de habitantes é: 322010400 \n");
+   printf("A área da cidade é: 27.768km² \n");
+   printf("O PIB é: 76,27 bilhões de reais \n");
+   printf("O número de pontos túristicos é: 20 \n");
 
+   
+   printf("\n");
+
+      return 0;
 }
