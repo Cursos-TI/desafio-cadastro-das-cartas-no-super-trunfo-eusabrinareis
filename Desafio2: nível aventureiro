@@ -1,3 +1,32 @@
+#include <stdio.h>
+
+int main(){
+   printf("Desafio nível aventureiro \n");
+   printf("\n");
+   printf("Carta 1 \n");
+
+   char Estado;
+   char Codigo[20];
+   char Cidade[20];
+   int População = 9265000;
+   float Área = 9167.617;
+   float PIB = 23.6;
+   int Turismo;
+   float Densidade= (float) População / Área;
+   float PIB_per_Capita= (float) População / PIB;
+
+
+   printf("O estado é: Amapá \n");
+   printf("O código do estado é: A01\n");
+   printf("A cidade é: Macapá \n");
+   printf("O número de habitantes é: 9265000 \n");
+   printf("A área da cidade é: 9.167,617km² \n");
+   printf("O PIB é: 23,6 bilhões \n");
+   printf("O número de pontos turísticos é: 15 \n");
+   printf("A densidade populacional é: %.2f hab/km²\n", Densidade);
+   printf("O PIB per Capita é: %.2f reais \n", PIB_per_Capita);
+   
+
 printf("\n");
 
    int População2= 322010400;
